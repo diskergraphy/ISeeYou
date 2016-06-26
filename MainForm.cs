@@ -21,7 +21,7 @@ namespace ISeeYou
         public MainForm()
         {
             InitializeComponent();
-                        //hello
+                        //helloㅓ
             //ㅗㅑ
         }
 
