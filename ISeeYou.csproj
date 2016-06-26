@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="OpenCvSharp, Version=2.0.3872.36177, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\OpenCvSharp.dll</HintPath>
+      <HintPath>lib\OpenCvSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

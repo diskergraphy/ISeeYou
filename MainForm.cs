@@ -21,7 +21,8 @@ namespace ISeeYou
         public MainForm()
         {
             InitializeComponent();
-                        //hello
+                        //helloㅓ
+            //ㅗㅑ
         }
 
         private void MainForm_Load(object sender, EventArgs e)
