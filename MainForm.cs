@@ -16,14 +16,18 @@ namespace ISeeYou
         IplImage m_cvImg;
         CvCapture m_cvCap;
 
+        CvFaceData face;
+
         public MainForm()
         {
             InitializeComponent();
+                        //hello
         }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            m_cvCap = CvCapture.FromCamera(1);
+            m_cvCap = CvCapture.FromCamera(0);
+            
             m_cvCap.FrameWidth = 320;
             m_cvCap.FrameHeight = 240;
 
@@ -36,6 +40,8 @@ namespace ISeeYou
             m_cvImg = m_cvCap.QueryFrame();
             //IplImage을 비트맵으로 전환
             pictureBox1.Image = m_cvImg.ToBitmap();
+
+            label1.Text = face.LeftEyeRect.X+"";
 
         }
     }
